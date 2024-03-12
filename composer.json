@@ -1,0 +1,28 @@
+{
+    "name": "kulchandu/media-service",
+    "description": "This is a media service using upload image for storage folder and s3bucket for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rahul Kulchandu",
+            "email": "rahulkulchandu3@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kulchandu\\MediaService\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "aws/aws-sdk-php": "^3.279"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kulchandu\\MediaService\\MediaServiceProvider"
+            ]
+        }
+    }
+}
