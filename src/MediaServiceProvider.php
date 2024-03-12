@@ -11,11 +11,8 @@ class MediaServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/Services/MediaService.php' => app_path('Services/MediaService.php'),
-        ]);
-        $this->publishes([
             __DIR__ . '/App/Facades/MediaServiceFacade.php' => app_path('Facades/MediaServiceFacade.php'),
         ]);
-    }
     }
     public function register()
     {
