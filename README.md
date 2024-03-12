@@ -1,7 +1,7 @@
 # Media Service for Laravel
 
-[![Latest Version](https://img.shields.io/github/v/tag/rahul-kulchandu2/media-service
-)](https://github.com/rahul-kulchandu2/media-service/tags)
+[![Latest Version](https://img.shields.io/github/v/tag/rahul-kulchandu2/media-service-laravel
+)](https://github.com/rahul-kulchandu2/media-service-laravel/tags)
 [![Latest Version](https://img.shields.io/packagist/dt/kulchandu/media-service
 )](https://packagist.org/packages/kulchandu/media-service)
 
